@@ -26,7 +26,7 @@ spec:
         image: devimeena/mysql:1.0.0
         envFrom:
         - configMapRef:
-          name: mysql
+            name: mysql
 ---
 apiVersion: v1
 kind: Service # cluster ip service bcz no need to expose to outside world
